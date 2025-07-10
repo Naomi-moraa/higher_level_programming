@@ -1,2 +1,3 @@
-for i in range(1):
-    print("{}".format("When I was having that alphabet soup, I never thought that it would pay off"))
+for i in range(97, 123):
+    if i != 101 and i != 113:
+        print("{}".format(chr(i)), end="")
